@@ -43,11 +43,10 @@ $timer.Start()
 
 Write-Output "Create resource files for lw-$ResourceName, this can take up to 30 seconds..."
 
-#initialize the cfx template stuff.
+#Initialize the cfx template stuff.
 dotnet new -i CitizenFX.Templates | Out-Null
 
-#create resource folder structure.
-
+#Create resource folder structure.
 New-Item projects/lw-$ResourceName -ItemType "directory" | Out-Null
 Set-Location projects/lw-$ResourceName | Out-Null
 
@@ -58,8 +57,8 @@ Set-Location ../../
 
 Write-Output "Writing entry for Visual Studio Code workspace..."
 
-#Write entry into workspace json.
 #Touch the "code-workspace" file if we don't have one already.
+#Write entry into workspace json.
 if(-not (Test-Path "projects/lw.code-workspace"))
 {
     $defaultWorkspaceContent = @"

@@ -1,0 +1,27 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lw-app8.Client", "Client\lw-app8.Client.csproj", "{D9793112-672B-4EF1-9C1E-C5867B272D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lw-app8.Server", "Server\lw-app8.Server.csproj", "{2A02BD9C-EA51-430E-860A-A9066E67FA9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9793112-672B-4EF1-9C1E-C5867B272D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9793112-672B-4EF1-9C1E-C5867B272D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9793112-672B-4EF1-9C1E-C5867B272D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9793112-672B-4EF1-9C1E-C5867B272D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A02BD9C-EA51-430E-860A-A9066E67FA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A02BD9C-EA51-430E-860A-A9066E67FA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A02BD9C-EA51-430E-860A-A9066E67FA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A02BD9C-EA51-430E-860A-A9066E67FA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
